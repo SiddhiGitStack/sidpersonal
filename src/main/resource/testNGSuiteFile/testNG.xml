@@ -4,7 +4,13 @@
 
 	<test name="sidAssignments">
 		<classes>
-			<class name="sid.selenium.assignment.*"></class>
+			<class name="sid.selenium.assignment.First_BrowserCommands"></class>
+			<class name="sid.selenium.assignment.Second_FacebookSignup"></class>
+			<class name="sid.selenium.assignment.Third_LinksCheck"></class>
+			<class name="sid.selenium.assignment.Fourth_eBayProductSearch"></class>
+			<class name="sid.selenium.assignment.Fifth_SnapdealLogin"></class>
+			<class name="sid.selenium.assignment.Sixth_DragDrop"></class>
+			<class name="sid.selenium.assignment.Seventh_GmailCompose"></class>
 			
 
 		</classes>

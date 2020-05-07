@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import com.relevantcodes.extentreports.LogStatus;
+
 import sid.selenium.common.BasePO;
 import sid.selenium.common.BaseTest;
 
@@ -39,6 +41,7 @@ public class Seventh_GmailCompose extends BaseTest {
 		driver.findElement(By.xpath("//input[@id='identifierId']")).sendKeys("siddhirao07@gmail.com");
 		driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
 		
+		test.log(LogStatus.FAIL, "Test failed");
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Sid@12345");
 		driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click();
 		
