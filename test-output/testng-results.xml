@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15235" started-at="2020-05-07T13:08:55Z" finished-at="2020-05-07T13:09:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15235" started-at="2020-05-07T13:08:55Z" finished-at="2020-05-07T13:09:10Z">
+      <class name="sid.selenium.assignment.Sixth_DragDrop">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:sid.selenium.assignment.Sixth_DragDrop@1da51a35]" name="startTest" is-config="true" duration-ms="198" started-at="2020-05-07T13:08:55Z" finished-at="2020-05-07T13:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:sid.selenium.assignment.Sixth_DragDrop@1da51a35]" name="setup" is-config="true" duration-ms="3439" started-at="2020-05-07T13:08:55Z" finished-at="2020-05-07T13:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dragDrop()[pri:0, instance:sid.selenium.assignment.Sixth_DragDrop@1da51a35]" name="dragDrop" duration-ms="10573" started-at="2020-05-07T13:08:59Z" finished-at="2020-05-07T13:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragDrop -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sid.selenium.assignment.Sixth_DragDrop@1da51a35]" name="tearDown" is-config="true" duration-ms="671" started-at="2020-05-07T13:09:09Z" finished-at="2020-05-07T13:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sid.selenium.assignment.Sixth_DragDrop@1da51a35]" name="endTest" is-config="true" duration-ms="331" started-at="2020-05-07T13:09:10Z" finished-at="2020-05-07T13:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sid.selenium.assignment.Sixth_DragDrop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
